@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dino Elektrotechnik | Meisterbetrieb für moderne Elektroinstallationen</title>
+    <meta
+      name="description"
+      content="Dino Elektrotechnik: Meisterbetrieb für Elektroinstallationen, Smart Home, PV, Wallbox und E-Check. Jetzt kostenlose Erstberatung sichern."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav">
+        <a class="brand" href="#">⚡ Dino Elektrotechnik</a>
+        <button class="menu-toggle" aria-label="Menü öffnen">☰</button>
+        <nav class="nav-links">
+          <a href="#leistungen">Leistungen</a>
+          <a href="#referenzen">Referenzen</a>
+          <a href="#ueber-uns">Über uns</a>
+          <a href="#kontakt" class="btn btn-small">Jetzt anfragen</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero reveal">
+        <div class="container hero-grid">
+          <div>
+            <p class="badge">Meisterbetrieb • Antwort in 24h • Privat & Gewerbe</p>
+            <h1>Dino Elektrotechnik – moderne Elektrolösungen mit Wow-Effekt.</h1>
+            <p>
+              Von klassischer Elektroinstallation bis Smart Home, Photovoltaik und Wallbox:
+              termintreu, sauber und fachgerecht in Ihrer Region.
+            </p>
+            <div class="cta-row">
+              <a class="btn" href="#kontakt">Kostenlose Erstberatung</a>
+              <a class="btn btn-ghost" href="tel:+49123456789">Jetzt anrufen</a>
+            </div>
+          </div>
+          <aside class="hero-card">
+            <h2>Schnell-Anfrage</h2>
+            <p>In unter 60 Sekunden absenden:</p>
+            <form id="quick-lead" class="lead-form">
+              <input type="text" placeholder="Name" required />
+              <input type="tel" placeholder="Telefon" required />
+              <select required>
+                <option value="">Leistung wählen</option>
+                <option>Elektroinstallation</option>
+                <option>Smart Home</option>
+                <option>PV / Wallbox</option>
+                <option>E-Check / Wartung</option>
+              </select>
+              <button type="submit" class="btn">Beratung sichern</button>
+            </form>
+            <small class="form-note">Unverbindlich & kostenlos.</small>
+          </aside>
+        </div>
+      </section>
+
+      <section id="leistungen" class="section reveal">
+        <div class="container">
+          <h2>Leistungen mit System</h2>
+          <div class="cards">
+            <article class="card interactive-card">
+              <h3>Elektroinstallation</h3>
+              <p>Neubau, Sanierung, Unterverteilung, Beleuchtungskonzepte.</p>
+            </article>
+            <article class="card interactive-card">
+              <h3>Smart Home</h3>
+              <p>Licht, Beschattung, Energie und Sicherheit intelligent gesteuert.</p>
+            </article>
+            <article class="card interactive-card">
+              <h3>PV & Wallbox</h3>
+              <p>Nachhaltige Energie inklusive sicherer Ladeinfrastruktur.</p>
+            </article>
+            <article class="card interactive-card">
+              <h3>E-Check & Wartung</h3>
+              <p>Prüfung, Wartung und Fehlerdiagnose für maximale Betriebssicherheit.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="referenzen" class="section alt reveal">
+        <div class="container">
+          <h2>Referenzen & Ergebnisse</h2>
+          <div class="slider" data-slider>
+            <button class="slider-btn" data-prev>‹</button>
+            <div class="slides">
+              <figure class="slide active">
+                <h3>Einfamilienhaus-Sanierung</h3>
+                <p>Komplette Neuverkabelung mit Smart-Home-Steuerung.</p>
+              </figure>
+              <figure class="slide">
+                <h3>Gewerbeobjekt Beleuchtung</h3>
+                <p>Effizientes LED-Konzept mit bis zu 35% Energieeinsparung.</p>
+              </figure>
+              <figure class="slide">
+                <h3>PV + Wallbox Komplettpaket</h3>
+                <p>Eigenstromnutzung, Lastmanagement und App-Anbindung.</p>
+              </figure>
+            </div>
+            <button class="slider-btn" data-next>›</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="ueber-uns" class="section reveal">
+        <div class="container split">
+          <div>
+            <h2>Über Dino Elektrotechnik</h2>
+            <p>
+              Als Elektromeisterbetrieb stehen wir für Verlässlichkeit, saubere Ausführung und
+              klare Kommunikation. Unser Anspruch: Technik, die im Alltag begeistert und dauerhaft
+              sicher funktioniert.
+            </p>
+          </div>
+          <ul class="trust-list">
+            <li>✅ Meisterbetrieb mit Fachkompetenz</li>
+            <li>✅ Transparente Angebote ohne Überraschungen</li>
+            <li>✅ Schnelle Reaktionszeit & feste Ansprechpartner</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="kontakt" class="section contact reveal">
+        <div class="container split">
+          <div>
+            <h2>Jetzt Projekt starten</h2>
+            <p>
+              Senden Sie uns Ihre Anfrage – wir melden uns innerhalb von 24 Stunden mit einer
+              ersten Einschätzung.
+            </p>
+            <p><strong>Telefon:</strong> <a href="tel:+49123456789">+49 123 456789</a></p>
+            <p><strong>E-Mail:</strong> kontakt@dino-elektrotechnik.de</p>
+          </div>
+          <form id="lead-form" class="lead-form">
+            <input type="text" placeholder="Vor- und Nachname" required />
+            <input type="email" placeholder="E-Mail" required />
+            <input type="tel" placeholder="Telefon" required />
+            <input type="text" placeholder="Ort" />
+            <textarea rows="4" placeholder="Ihr Anliegen" required></textarea>
+            <button type="submit" class="btn">Unverbindliche Anfrage senden</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <a class="sticky-call" href="tel:+49123456789">📞 Jetzt anrufen</a>
+
+    <script src="script.js"></script>
+  </body>
+</html>
